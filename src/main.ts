@@ -3,6 +3,7 @@ import * as components from "./components";
 const ComponentLibrary = {
   // @ts-ignore
   install(Vue, options = {}) {
+    console.log(components);
     // components
     for (const componentName in components) {
       // @ts-ignore
