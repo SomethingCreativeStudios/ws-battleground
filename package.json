@@ -10,8 +10,8 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "watch": "vue-cli-service build --target lib --name ws-battleground src/main.ts",
-    "build": "vue-cli-service build --watch --target lib --name ws-battleground src/main.ts",
+    "watch": "vue-cli-service build  --watch --target lib --name ws-battleground src/main.ts",
+    "build": "vue-cli-service build  --target lib --name ws-battleground src/main.ts",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
