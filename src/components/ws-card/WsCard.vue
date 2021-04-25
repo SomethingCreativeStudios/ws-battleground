@@ -1,16 +1,13 @@
 <template>
-  <div>
-    I am a card!! WWTF
-  </div>
+  <div>I am a card!! WWTF</div>
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { defineComponent } from "vue";
 
-@Component
-export default class WsCard extends Vue {
-  @Prop() private msg!: string;
-}
+export default defineComponent({
+  name: "ws-card",
+});
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
